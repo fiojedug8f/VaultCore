@@ -1,0 +1,40 @@
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Сборки и кэши ---
+build/
+dist/
+*.spec
+site/
+.pytest_cache/
+.pytest-tmp/
+.tmp/
+.pip-probe/
+
+# --- ОС / IDE ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.bak
+*.swp
+
+# --- Секреты и локальные данные (не коммитить никогда) ---
+.env
+.env.*
+*.blob
+key.blob
+identity.json
+eula.json
+*.db
+*.sqlite3
+*.log
+examples/*.pem
+
+# --- Скриншоты документации ---
+!docs/screenshots/*.png
